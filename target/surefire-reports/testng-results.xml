@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.qait.automation.hris.NewTest" duration-ms="38805" started-at="2018-07-10T06:13:37Z" finished-at="2018-07-10T06:14:16Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="38805" started-at="2018-07-10T06:13:37Z" finished-at="2018-07-10T06:14:16Z">
+      <class name="com.qait.automation.hris.NewTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qait.automation.hris.NewTest@38082d64]" name="launchBrowser" is-config="true" duration-ms="29460" started-at="2018-07-10T06:13:37Z" finished-at="2018-07-10T06:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="attempt_Login_With_Incorrect_Password_Should_Render_Error_Message()[pri:0, instance:com.qait.automation.hris.NewTest@38082d64]" name="attempt_Login_With_Incorrect_Password_Should_Render_Error_Message" duration-ms="1554" started-at="2018-07-10T06:14:07Z" finished-at="2018-07-10T06:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attempt_Login_With_Incorrect_Password_Should_Render_Error_Message -->
+        <test-method status="PASS" signature="attempt_Login_With_No_Password_Should_Annotate_Black_Password_Field()[pri:1, instance:com.qait.automation.hris.NewTest@38082d64]" name="attempt_Login_With_No_Password_Should_Annotate_Black_Password_Field" duration-ms="315" started-at="2018-07-10T06:14:08Z" finished-at="2018-07-10T06:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attempt_Login_With_No_Password_Should_Annotate_Black_Password_Field -->
+        <test-method status="PASS" signature="issuccessfullogin()[pri:2, instance:com.qait.automation.hris.NewTest@38082d64]" name="issuccessfullogin" duration-ms="7250" started-at="2018-07-10T06:14:09Z" finished-at="2018-07-10T06:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- issuccessfullogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qait.automation.hris.NewTest@38082d64]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2018-07-10T06:14:16Z" finished-at="2018-07-10T06:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qait.automation.hris.NewTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.qait.automation.hris.NewTest -->
+</testng-results>
